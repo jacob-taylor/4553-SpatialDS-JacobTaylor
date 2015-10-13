@@ -4,7 +4,7 @@
 | ***1*** | ***General***                                    | 20      |          | ![Alt text][1] |
 | -       | `Program1` folder exists and contains both files |         |    0      | ![Alt text][1] |
 | -       | Folder and files named correctly                 |         |    0      | ![Alt text][1] |
-| ***2*** | ***Output***                                     | 30      |    0      | ![Alt text][1] |
+| ***2*** | ***Output***                                     | 30      |           | ![Alt text][1] |
 | -       | Program creates output.dat                       |         |   0       | ![Alt text][1] |
 | -       | Output formatted correctly (or at least close)   |         |    0      | ![Alt text][1] |
 | -       | Ran for both bounding box and 500 mile radius    |         |   0       | ![Alt text][1] |
