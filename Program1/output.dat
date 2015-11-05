@@ -1,0 +1,386 @@
+Jacob Taylor 
+10/22/2015 
+Program 1 - Intro to Quadtrees
+============================================================================================
+1. All cities within the bounding box: [45.011419, -111.071777 , 40.996484, -104.040527]:
+
+Sheridan
+Gillette
+Laramie
+Cheyenne
+Casper
+Rock Springs
+============================================================================================
+2. All cities within 500 miles of this point: (23.805450, -78.156738):
+
+Nassau
+Lucaya
+Freeport
+Yara
+Yaguajay
+Vinales
+Vertientes
+Venezuela
+Varadero
+Urbano Noris
+Union de Reyes
+Trinidad
+Sibanicu
+Santo Domingo
+Santiago de las Vegas
+Santiago de Cuba
+Santa Cruz del Sur
+Santa Cruz del Norte
+Santa Clara
+San Miguel del Padron
+San Luis
+San Jose de las Lajas
+Sancti Spiritus
+San Cristobal
+San Antonio de los Banos
+Sagua la Grande
+Sagua de Tanamo
+Rodas
+Rio Guayabal de Yateras
+Rio Cauto
+Remedios
+Regla
+Ranchuelo
+Puerto Padre
+Primero de Enero
+Placetas
+Pinar del Rio
+Perico
+Pedro Betancourt
+Palmira
+Palma Soriano
+Nuevitas
+Nueva Gerona
+Niquero
+Moron
+Moa
+Minas de Matahambre
+Minas
+Media Luna
+Matanzas
+Mariel
+Manzanillo
+Manicaragua
+Maisi
+Madruga
+Los Palacios
+Las Tunas
+La Sierpe
+La Salud
+Havana
+Jovellanos
+Jobabo
+Jobabo
+Jiguani
+Jesus Menendez
+Jatibonico
+Jaruco
+Jaguey Grande
+Holguin
+Guisa
+Guira de Melena
+Gueines
+Guantanamo
+Guane
+Guanajay
+Guanabacoa
+Guaimaro
+Gibara
+Fomento
+Florida
+Florencia
+Esmeralda
+Encrucijada
+Cumanayagua
+Cueto
+Cruces
+Corralillo
+Contramaestre
+Consolacion del Sur
+Condado
+Colon
+Colombia
+Ciro Redondo
+Cifuentes
+Cienfuegos
+Ciego de Avila
+Chambas
+Cerro
+Cauto Cristo
+Cardenas
+Campechuela
+Camajuani
+Camaguey
+Calimete
+Caibarien
+Cacocum
+Cabaiguan
+Bejucal
+Bayamo
+Bauta
+Bartolome Maso
+Baragua
+Baracoa
+Banes
+Bahia Honda
+Artemisa
+Arroyo Naranjo
+Amancio
+Alquizar
+Alamar
+Aguada de Pasajeros
+Abreus
+Habana del Este
+Centro Habana
+La Habana Vieja
+Baguanos
+Jimaguayu
+Arroyo Naranjo
+Boyeros
+Diez de Octubre
+San Fernando de Monte Cristi
+Verrettes
+Saint-Raphael
+Saint-Marc
+Port-de-Paix
+Miragoane
+Limbe
+Jeremie
+Gonaives
+Desarmes
+Les Cayes
+Cap-Haitien
+Ti Port-de-Paix
+Spanish Town
+Savanna-la-Mar
+Portmore
+Old Harbour
+New Kingston
+Montego Bay
+May Pen
+Mandeville
+Linstead
+Kingston
+Half Way Tree
+George Town
+Grand Cayman
+Cockburn Town
+Allapattah
+Altamonte Springs
+Apopka
+Aventura
+Bartow
+Bayonet Point
+Bayshore Gardens
+Belle Glade
+Bloomingdale
+Boca Del Mar
+Boca Raton
+Bonita Springs
+Boynton Beach
+Bradenton
+Brandon
+Brownsville
+Buenaventura Lakes
+Cape Coral
+Carol City
+Carrollwood
+Carrollwood Village
+Casselberry
+Citrus Park
+Clearwater
+Clermont
+Cocoa
+Coconut Creek
+Coconut Grove
+Cooper City
+Coral Gables
+Coral Springs
+Coral Terrace
+Country Walk
+Country Club
+Cutler
+Cutler Ridge
+Dania Beach
+Davie
+Daytona Beach
+DeLand
+DeBary
+Deerfield Beach
+Delray Beach
+Deltona
+Doral
+Dunedin
+East Lake
+Edgewater
+Egypt Lake-Leto
+Estero
+Eustis
+Flagami
+Florida Ridge
+Fort Lauderdale
+Fort Myers
+Fort Pierce
+Fountainebleau
+Fruit Cove
+Gainesville
+Glenvar Heights
+Golden Gate
+Golden Glades
+Greenacres City
+Haines City
+Hallandale Beach
+Hialeah
+Hialeah Gardens
+Holiday
+Hollywood
+Homestead
+Immokalee
+Iona
+Ives Estates
+Jacksonville
+Jacksonville Beach
+Jasmine Estates
+Jupiter
+Kendale Lakes
+Kendall
+Key West
+Keystone
+Kissimmee
+Lake Butler
+Lake Magdalene
+Lake Worth
+Lake Worth Corridor
+Lakeland
+Lakeside
+Land O' Lakes
+Largo
+Lauderdale Lakes
+Lauderhill
+Lealman
+Leesburg
+Lehigh Acres
+Leisure City
+Lutz
+Maitland
+Margate
+Meadow Woods
+Melbourne
+Merritt Island
+Miami
+Miami Beach
+Miami Gardens
+Miami Lakes
+Miramar
+Naples
+New Smyrna Beach
+Norland
+North Fort Myers
+North Lauderdale
+North Miami
+North Miami Beach
+North Port
+Oak Ridge
+Oakland Park
+Ocala
+Ocoee
+Ojus
+Opa-locka
+Orlando
+Ormond Beach
+Oviedo
+Palm Bay
+Palm Beach Gardens
+Palm City
+Palm Coast
+Palm Harbor
+Palm Springs
+Palm Valley
+Palmetto Bay
+Parkland
+Pembroke Pines
+Pine Hills
+Pinecrest
+Pinellas Park
+Pinewood
+Plant City
+Plantation
+Poinciana
+Pompano Beach
+Ponte Vedra Beach
+Port Charlotte
+Port Orange
+Port Saint Lucie
+Princeton
+Punta Gorda
+Punta Gorda Isles
+Richmond West
+Riverview
+Riviera Beach
+Rockledge
+Royal Palm Beach
+Ruskin
+Safety Harbor
+Saint Cloud
+Saint Petersburg
+San Carlos Park
+Sanford
+Sarasota
+Sebastian
+Seminole
+South Bradenton
+South Miami Heights
+Southchase
+Spring Hill
+Stuart
+Sun City Center
+Sunny Isles Beach
+Sunrise
+Sunset
+Tamarac
+Tamiami
+Tampa
+Tarpon Springs
+Temple Terrace
+The Crossings
+The Hammocks
+The Villages
+Three Lakes
+Titusville
+Town 'n' Country
+University Park
+Valrico
+Venice
+Vero Beach
+Wekiwa Springs
+Wellington
+Wesley Chapel
+Westchase
+West Little River
+West Melbourne
+West Palm Beach
+West and East Lealman
+Westchester
+Weston
+Winter Garden
+Winter Haven
+Winter Park
+Winter Springs
+Cutler Bay
+Alafaya
+Citrus Park
+East Lake-Orient Park
+Four Corners
+Greater Northdale
+University
+Vero Beach South
+Kendall West
+Palm River-Clair Mel
+============================================================================================
+
+Program ran in 26.130368948 seconds.
